@@ -1,0 +1,34 @@
+UN NOM GENIAL
+0
+===TYPE:LIVRE===
+titre: le fun du gameplay de ark
+nombre de page: 15
+Auteur: MrJoJo44
+===TYPE:LIVRE===
+titre: l'art du flaming
+nombre de page: 150
+Auteur: Julien
+===TYPE:REVUE===
+titre: la revu du flaming
+nombre de page: 15
+Frequence: HEBDOMADAIRE
+===TYPE:REVUE===
+titre: l'aram est un art
+nombre de page: 20
+Frequence: MENSUEL
+===TYPE:LIVRE===
+titre: l'aram for ever
+nombre de page: 20
+Auteur: elanorMelanie
+===TYPE:LIVRE===
+titre: garen le champion skiller
+nombre de page: 1
+Auteur: RIOT
+===TYPE:REVUE===
+titre: garenCompetence
+nombre de page: 15
+Frequence: JOURNALIER
+===TYPE:LIVRE===
+titre: mon Livre est genial
+nombre de page: 500
+Auteur: moi
