@@ -3,6 +3,6 @@ public class NameParser <T> {
         String[] tab = caractere.split(" ");
         String nom = tab[0];
         String prenom = tab[1];
-        return creator.create(nom,prenom);
+        return (T) ((Creator) (firstName, LastName) -> new Name(nom, prenom)).create(nom,prenom);
     }
 }
