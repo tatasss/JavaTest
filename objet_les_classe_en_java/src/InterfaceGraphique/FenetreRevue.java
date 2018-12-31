@@ -9,7 +9,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class FenetreRevue extends JFrame {
-    private String[] monTabDonne= new String[3];
+    private String[] monTabDonne= new String[4];
 
     public String[] getMonTabDonne() {
         return monTabDonne;
@@ -58,6 +58,7 @@ public class FenetreRevue extends JFrame {
                 monTabDonne[0]= textTitre.getText();
                 monTabDonne[1] = textNbPage.getText();
                 monTabDonne[2] = String.valueOf(frequenceList.getItemAt(frequenceList.getSelectedIndex()));
+                monTabDonne[3]="REVUE";
                 //setVisible(false);
                 //FenetrePrincipale.actu(monTabDonne);
                 FenetrePrincipale.actualiser(monTabDonne);

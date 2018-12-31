@@ -16,6 +16,6 @@ public class Revue extends Document {
     }
     @Override
     public String toString(){
-        return "===TYPE:REVUE===\ntitre: "+ this.getTitre()+"\nnombre de page: "+this.getNbPage() + "\nFrequence: "+this.frequence;
+        return "TYPE :REVUE : "+ getTitre();
     }
 }

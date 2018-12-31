@@ -1,9 +1,7 @@
 package InterfaceGraphique;
 
-import metier.Auteur;
-import metier.Bibliotheque;
-import metier.Frequence;
-import metier.Revue;
+import Service.Controlleur;
+import metier.*;
 
 import javax.swing.*;
 import java.awt.*;
@@ -11,6 +9,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
+import java.io.File;
 
 public class FenetrePrincipale extends JFrame { // la JFrame Utilise un layout par default  : BoderLayout
     /*public static void actu(String[] tab){
@@ -25,13 +24,20 @@ public class FenetrePrincipale extends JFrame { // la JFrame Utilise un layout p
     private static DefaultListModel<Object> model = new DefaultListModel<>();
     public static void  actualiser(String[] tab)
     {
-
-        bib.ajouterUnDocument(tab[0],Integer.parseInt(tab[1]), Frequence.valueOf(tab[2]));
-
-
-        model.addElement(new Revue(tab[0],Integer.parseInt(tab[1]), Frequence.valueOf(tab[2])));
+        if(tab[3].equals("REVUE")) {
+            bib.ajouterUnDocument(tab[0], Integer.parseInt(tab[1]), Frequence.valueOf(tab[2]));
 
 
+            model.addElement(new Revue(tab[0], Integer.parseInt(tab[1]), Frequence.valueOf(tab[2])));
+        }
+        else {
+            bib.ajouterUnDocument(tab[0], Integer.parseInt(tab[1]), new Auteur(tab[2]));
+
+
+            model.addElement(new Livre(tab[0], Integer.parseInt(tab[1]), new Auteur(tab[2])));
+        }
+        Controlleur.sauveBin(new File("bib.bin"),bib);
+        Controlleur.sauve(new File("bib.txt"),bib);
 
     }
     public FenetrePrincipale(Bibliotheque bib){
@@ -51,8 +57,7 @@ public class FenetrePrincipale extends JFrame { // la JFrame Utilise un layout p
         pSud.add(livre);
         JButton revue=new JButton("ajouter une revue");
         pSud.add(revue);
-        JButton actu =new JButton("actualiser");
-        pSud.add(actu);
+
         //=============================================================================
         this.setLocationRelativeTo(null);
         add(pSud, BorderLayout.SOUTH);
@@ -69,25 +74,16 @@ public class FenetrePrincipale extends JFrame { // la JFrame Utilise un layout p
             }//jouer le role d'un écouteur, lorque l'utilisateur clique sur la souris ou clavier, elle va detecter et executer
             //le traitement qui lui correspond
         });
+        listDoc.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+        listDoc.scrollRectToVisible(new Rectangle());
+        listDoc.addListSelectionListener((e)->{
+            Document monDoc=bib.getMesDocument().get(listDoc.getSelectedIndex());
+            FenetreLivreDetail fld= new FenetreLivreDetail(monDoc);
+            fld.setVisible(true);
+        });
         livre.addActionListener((e)->{fl.setVisible(true);});
 
-        actu.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-               /* if(fr.isVisible())
-                    bib.ajouterUnDocument(fr.getMonTabDonne()[0], Integer.parseInt(fr.getMonTabDonne()[1]), Frequence.valueOf(fr.getMonTabDonne()[2]));
-                if(fl.isVisible())
-                    bib.ajouterUnDocument(fl.getMonTabDonne()[0], Integer.parseInt(fl.getMonTabDonne()[1]),new Auteur(fl.getMonTabDonne()[2]));
-                */
-               DefaultListModel<Object> model = new DefaultListModel<>();
-                for(Object d : bib.getMesDocument()){
-                    model.addElement(d);
-                }
-                listDoc.setModel(model);
 
-            }
-
-        });
 
 
     }

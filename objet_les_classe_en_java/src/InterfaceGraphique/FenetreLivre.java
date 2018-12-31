@@ -8,7 +8,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class FenetreLivre extends JFrame{
-    private String[] monTabDonne= new String[3];
+    private String[] monTabDonne= new String[4];
 
     public String[] getMonTabDonne() {
         return monTabDonne;
@@ -52,9 +52,15 @@ public class FenetreLivre extends JFrame{
                 monTabDonne[0]= textTitre.getText();
                 monTabDonne[1] = textNbPage.getText();
                 monTabDonne[2] = textAuteur.getText();
+                monTabDonne[3]="Livre";
                 //setVisible(false);
+                //FenetrePrincipale.actu(monTabDonne);
+                FenetrePrincipale.actualiser(monTabDonne);
+                //bib.ajouterUnDocument(textTitre.getText(),Integer.parseInt(textNbPage.getText()),frequenceList.getItemAt(frequenceList.getSelectedIndex()));
+                setVisible(false);
+            }   //setVisible(false);
 
-            }
+
         });
 
         //---------------------------------------------------------

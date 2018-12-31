@@ -16,7 +16,7 @@ public class Livre extends  Document {
     }
     @Override
     public String toString(){
-        return "===TYPE:LIVRE===\ntitre: "+ this.getTitre()+"\nnombre de page: "+this.getNbPage() + "\nAuteur: "+this.auteur.getNom();
+        return "TYPE : LIVRRE : "+getTitre();
     }
 
 }

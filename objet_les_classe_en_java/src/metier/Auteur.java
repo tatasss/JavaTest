@@ -16,4 +16,9 @@ public class Auteur implements Serializable {
     public void setNom(String nom) {
         this.nom = nom;
     }
+
+    @Override
+    public String toString() {
+        return getNom();
+    }
 }
