@@ -2,28 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee5f747c-78f3-41a4-abaa-cd3fc893e9ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/InterfaceGraphique/FenetreLivreDetail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Stream/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Stream/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stream/out/production/Stream/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Stream/out/production/Stream/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Stream/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Stream/src/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bib.bin" beforeDir="false" afterPath="$PROJECT_DIR$/bib.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bib.txt" beforeDir="false" afterPath="$PROJECT_DIR$/bib.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/objet_les_classe_en_java/InterfaceGraphique/FenetreLivre$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/objet_les_classe_en_java/InterfaceGraphique/FenetreLivre$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/objet_les_classe_en_java/InterfaceGraphique/FenetreLivre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/objet_les_classe_en_java/InterfaceGraphique/FenetreLivre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/objet_les_classe_en_java/InterfaceGraphique/FenetrePrincipale$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/objet_les_classe_en_java/InterfaceGraphique/FenetrePrincipale$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/objet_les_classe_en_java/InterfaceGraphique/FenetrePrincipale$2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/objet_les_classe_en_java/InterfaceGraphique/FenetrePrincipale$3.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/objet_les_classe_en_java/InterfaceGraphique/FenetrePrincipale.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/objet_les_classe_en_java/InterfaceGraphique/FenetrePrincipale.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/objet_les_classe_en_java/InterfaceGraphique/FenetreRevue$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/objet_les_classe_en_java/InterfaceGraphique/FenetreRevue$1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/objet_les_classe_en_java/InterfaceGraphique/FenetreRevue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/objet_les_classe_en_java/InterfaceGraphique/FenetreRevue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/objet_les_classe_en_java/metier/Auteur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/objet_les_classe_en_java/metier/Auteur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/objet_les_classe_en_java/metier/Livre.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/objet_les_classe_en_java/metier/Livre.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/objet_les_classe_en_java/metier/Revue.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/objet_les_classe_en_java/metier/Revue.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterfaceGraphique/FenetreLivre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterfaceGraphique/FenetreLivre.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/InterfaceGraphique/FenetrePrincipale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterfaceGraphique/FenetrePrincipale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/InterfaceGraphique/FenetreRevue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/InterfaceGraphique/FenetreRevue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/metier/Auteur.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metier/Auteur.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/metier/Livre.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metier/Livre.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/metier/Revue.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metier/Revue.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -77,19 +61,21 @@
     <session id="-1288483119">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.1" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.open.time.16" value="1" />
+          <entry key="project.open.time.2" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="872" />
+          <entry key="java" value="884" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="872" />
+          <entry key="JAVA" value="884" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -111,7 +97,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/presentation/Principale.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
+            <state relative-caret-position="-305">
               <caret line="17" selection-start-line="17" selection-end-line="17" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -123,8 +109,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/InterfaceGraphique/FenetrePrincipale.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="191">
-              <caret line="78" column="47" selection-start-line="78" selection-start-column="47" selection-end-line="78" selection-end-column="47" />
+            <state relative-caret-position="276">
+              <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -135,8 +121,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InterfaceGraphique/FenetreLivreDetail.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+            <state relative-caret-position="85">
+              <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -151,7 +137,7 @@
               <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
               <folding>
                 <element signature="e#393#394#0" expanded="true" />
-                <element signature="e#489#490#0" expanded="true" />
+                <element signature="e#445#446#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -160,11 +146,11 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/metier/Auteur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="208">
+            <state relative-caret-position="255">
               <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
               <folding>
                 <element signature="e#348#349#0" expanded="true" />
-                <element signature="e#378#379#0" expanded="true" />
+                <element signature="e#379#380#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -173,7 +159,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Service/Controlleur.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-98">
+            <state relative-caret-position="221">
               <caret line="13" selection-start-line="13" selection-end-line="13" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -189,7 +175,7 @@
               <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
               <folding>
                 <element signature="e#432#433#0" expanded="true" />
-                <element signature="e#455#456#0" expanded="true" />
+                <element signature="e#483#484#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -198,7 +184,7 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InterfaceGraphique/FenetreLivre.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="110">
+            <state relative-caret-position="221">
               <caret line="15" column="14" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="14" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -210,8 +196,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/InterfaceGraphique/FenetreRevue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="534">
-              <caret line="62" column="54" lean-forward="true" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
+            <state relative-caret-position="986">
+              <caret line="62" column="54" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -277,6 +263,7 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -317,7 +304,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -394,8 +380,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2602118" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2677761" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -404,7 +391,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3295082" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3295082" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3295082" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -478,24 +465,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/metier/Revue.java">
+    <entry file="file://$PROJECT_DIR$/bib.bin">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
-          <folding>
-            <element signature="e#432#433#0" expanded="true" />
-            <element signature="e#455#456#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/InterfaceGraphique/FenetreLivre.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="15" column="14" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="68">
+          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -505,43 +478,47 @@
           <caret line="18" column="15" selection-start-line="18" selection-start-column="15" selection-end-line="18" selection-end-column="15" />
           <folding>
             <element signature="e#393#394#0" expanded="true" />
-            <element signature="e#489#490#0" expanded="true" />
+            <element signature="e#445#446#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/metier/Auteur.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="208">
+        <state relative-caret-position="255">
           <caret line="21" column="24" selection-start-line="21" selection-start-column="24" selection-end-line="21" selection-end-column="24" />
           <folding>
             <element signature="e#348#349#0" expanded="true" />
-            <element signature="e#378#379#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bib.bin">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" lean-forward="true" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/presentation/Principale.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="17" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#379#380#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Service/Controlleur.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-98">
+        <state relative-caret-position="221">
           <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/metier/Revue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" column="43" selection-start-line="18" selection-start-column="43" selection-end-line="18" selection-end-column="43" />
+          <folding>
+            <element signature="e#432#433#0" expanded="true" />
+            <element signature="e#483#484#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/InterfaceGraphique/FenetreLivre.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="15" column="14" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -550,8 +527,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/InterfaceGraphique/FenetreRevue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="534">
-          <caret line="62" column="54" lean-forward="true" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
+        <state relative-caret-position="986">
+          <caret line="62" column="54" selection-start-line="62" selection-start-column="54" selection-end-line="62" selection-end-column="54" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/presentation/Principale.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-305">
+          <caret line="17" selection-start-line="17" selection-end-line="17" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -560,8 +547,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/InterfaceGraphique/FenetreLivreDetail.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="11" column="42" lean-forward="true" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
+        <state relative-caret-position="85">
+          <caret line="11" column="42" selection-start-line="11" selection-start-column="42" selection-end-line="11" selection-end-column="42" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -570,8 +557,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/InterfaceGraphique/FenetrePrincipale.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="191">
-          <caret line="78" column="47" selection-start-line="78" selection-start-column="47" selection-end-line="78" selection-end-column="47" />
+        <state relative-caret-position="276">
+          <caret line="83" column="13" selection-start-line="83" selection-start-column="13" selection-end-line="83" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -8,7 +8,7 @@ import java.util.Arrays;
 
 public class Main {
     public static void main(String[] args){
-        /*List<String> nom = new ArrayList<>();
+        List<String> nom = new ArrayList<>();
         nom.add("fabien");
         nom.add("xavier");
         nom.add("Dimitri");
@@ -25,20 +25,20 @@ public class Main {
         mp.add(new Personne(4));
         Stream<Personne> s=mp.stream();
         s.sorted((p1,p2)->{ return p1.compareA(p2);})
-                .forEach(System.out::println);*/
+                .forEach(System.out::println);
 
-        /*List<EPersonne> mo = new ArrayList<>();
+        List<EPersonne> mo = new ArrayList<>();
         mo.add(new EPersonne(47,"fabien"));
         mo.add(new EPersonne(34,"xavier"));
         mo.add(new EPersonne(23,"dimitri"));
-        /*List<Personne> filtre = mo.stream().filter(p-> p.getAge()>30).collect(Collectors.toList());
+        List<Personne> filtre = mo.stream().filter(p-> p.getAge()>30).collect(Collectors.toList());
         double ageAVG= mo.stream().collect(Collectors.averagingInt(p->p.getAge()));
         filtre.stream().forEach(System.out::println);
         System.out.println("Age moyenr : "+ageAVG);
         Integer agetotal = mo.stream().reduce(0,(somme,p)-> somme+=p.getAge(), (s1,s2)->s1+s2);
         System.out.println("somme age " + agetotal);
         mo.parallelStream()
-                .forEach(( n ->System.out.println(n+" :"+ Thread.currentThread().getName())));*/
+                .forEach(( n ->System.out.println(n+" :"+ Thread.currentThread().getName())));
         ArrayList<String> a = new ArrayList<String>();
         a.add("matthias");
         a.add("saida");
@@ -66,7 +66,7 @@ public class Main {
         ForkJoinPool pool =ForkJoinPool.commonPool();
         System.out.println(pool.getParallelism());
         a.parallelStream().
-                forEach(s -> System.out.println(s + " : "+ Thread.currentThread().getName()));
+                forEach(n -> System.out.println(n + " : "+ Thread.currentThread().getName()));
     }
 
 }

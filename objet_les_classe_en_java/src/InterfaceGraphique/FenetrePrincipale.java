@@ -74,12 +74,14 @@ public class FenetrePrincipale extends JFrame { // la JFrame Utilise un layout p
             }//jouer le role d'un écouteur, lorque l'utilisateur clique sur la souris ou clavier, elle va detecter et executer
             //le traitement qui lui correspond
         });
-        listDoc.setSelectionMode(ListSelectionModel.SINGLE_SELECTION);
+        listDoc.setSelectionMode(ListSelectionModel.SINGLE_INTERVAL_SELECTION);
         listDoc.scrollRectToVisible(new Rectangle());
         listDoc.addListSelectionListener((e)->{
-            Document monDoc=bib.getMesDocument().get(listDoc.getSelectedIndex());
-            FenetreLivreDetail fld= new FenetreLivreDetail(monDoc);
-            fld.setVisible(true);
+            if (e.getValueIsAdjusting() == false) {
+                Document monDoc = bib.getMesDocument().get(listDoc.getSelectedIndex());
+                FenetreLivreDetail fld = new FenetreLivreDetail(monDoc);
+                fld.setVisible(true);
+            }
         });
         livre.addActionListener((e)->{fl.setVisible(true);});
 
