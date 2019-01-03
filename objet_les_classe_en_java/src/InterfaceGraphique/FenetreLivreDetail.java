@@ -10,6 +10,7 @@ import java.awt.*;
 
 public class FenetreLivreDetail extends JFrame {
     public FenetreLivreDetail(Document doc) {
+        this.setSize(600,200);
         JPanel main = new JPanel(new GridLayout(3,2));
         JLabel titre = new JLabel("titre");
         JLabel nbPage = new JLabel("nbPage");
@@ -38,6 +39,6 @@ public class FenetreLivreDetail extends JFrame {
 
 
         add(main);
-        pack();
+        //pack();
     }
 }
