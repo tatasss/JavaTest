@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <classpath>
-	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="saida_Hibernate/src"/>
 	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jar/antlr-2.7.6rc1 - Copie.jar"/>
 	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jar/antlr-2.7.6rc1.jar"/>
 	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jar/asm.jar"/>
@@ -14,6 +14,5 @@
 	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jar/hibernate3.jar"/>
 	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jar/jta.jar"/>
 	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jar/mysql-connector-java-3.0.17-ga-bin.jar"/>
-	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/hibernate-release-5.4.0.Final/hibernate-release-5.4.0.Final/lib/envers/hibernate-envers-5.4.0.Final.jar"/>
-	<classpathentry kind="output" path="bin"/>
+	<classpathentry kind="output" path="saida_Hibernate/bin"/>
 </classpath>

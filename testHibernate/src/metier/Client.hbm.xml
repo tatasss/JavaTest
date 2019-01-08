@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+<!-- Generated 8 janv. 2019 15:41:28 by Hibernate Tools 3.4.0.CR1 -->
+<hibernate-mapping>
+    <class name="metier.Client" table="CLIENT">
+        <id name="id" type="int">
+            <column name="clientID" />
+            <generator class="native" />
+        </id>
+        <property name="nom" type="java.lang.String">
+            <column name="NOM" />
+        </property>
+        <many-to-one name="adresse" class="metier.Adresse" fetch="join">
+            <column name="ADRESSE" />
+        </many-to-one>
+        <set name="factures" table="FACTURE" inverse="true" lazy="true">
+            <key>
+                <column name="ClientID" />
+            </key>
+            <one-to-many class="metier.Facture" />
+        </set>
+    </class>
+</hibernate-mapping>
