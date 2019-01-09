@@ -1,13 +1,29 @@
 package metier;
+import javax.persistence.Column;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.Table;
 
+
+@Entity
+@Table (name="ADRESSE")
 public class Adresse {
+	@Id 
+	@GeneratedValue (strategy = GenerationType.AUTO)
+	@Column (name="AdresseId")
 		private int id;
+	@Column (name = "ville")
 		private String ville;
+	@Column (name = "codePostal")
 		private String codePostal;
+	@Column (name = "complementcedex")
 		private String complementcedex;
+	@Column (name = "ligne1")
 		private String ligne1;
-		private String ligne2;
-		private String ligne3;
+	
+	
 		public int getId() {
 			return id;
 		}
@@ -37,18 +53,6 @@ public class Adresse {
 		}
 		public void setLigne1(String ligne1) {
 			this.ligne1 = ligne1;
-		}
-		public String getLigne2() {
-			return ligne2;
-		}
-		public void setLigne2(String ligne2) {
-			this.ligne2 = ligne2;
-		}
-		public String getLigne3() {
-			return ligne3;
-		}
-		public void setLigne3(String ligne3) {
-			this.ligne3 = ligne3;
 		}
 		@Override
 		public String toString() {

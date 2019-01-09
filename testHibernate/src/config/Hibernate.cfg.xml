@@ -22,8 +22,9 @@
 		<!-- Drop and re-create the database schema on startup -->
 		<property name="hbm2ddl.auto">create</property>
 		<property name="hbm2ddl.auto">update</property>
-    	<mapping resource="metier/Client.hbm.xml" />
-    	<mapping resource="metier/Adresse.hbm.xml" />
-    	<mapping resource="metier/Facture.hbm.xml" />
+    	<mapping class="metier.Client" />
+    	<mapping class="metier.Adresse" />
+    	<mapping class= "metier.Facture"/>
+    	<mapping class="metier.Vendeur" />
     </session-factory>
 </hibernate-configuration>

@@ -4,11 +4,14 @@ import java.util.List;
 
 import org.hibernate.Session;
 
+import HibernateEvent.MonEcouteur;
 import metier.Adresse;
 import metier.Client;
 import metier.Facture;
+import metier.Vendeur;
 
 public class Service {
+	private MonEcouteur me = new MonEcouteur();
 	public void ajouterClient(Client c) {
 		Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 		session.beginTransaction();
@@ -25,6 +28,12 @@ public class Service {
 		Session session = HibernateUtil.getSessionFactory().getCurrentSession();
 		session.beginTransaction();
 		session.save(f);
+		session.getTransaction().commit();
+	}
+	public void ajouterVendeur(Vendeur v) {
+		Session session = HibernateUtil.getSessionFactory().getCurrentSession();
+		session.beginTransaction();
+		session.save(v);
 		session.getTransaction().commit();
 	}
 	public List<Client> getAllClient(){

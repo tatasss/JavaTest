@@ -9,29 +9,31 @@ import Service.Service;
 import metier.Adresse;
 import metier.Client;
 import metier.Facture;
+import metier.Vendeur;
 
 public class Principale {
 
 	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
-		Facture f1 = new Facture();
-		Client monClient = new Client("garen");
+		
+		
 		Adresse adr1 = new Adresse();
-		f1.setTotalTTC(666.666);
+		
 		adr1.setVille("demacia");
 		adr1.setCodePostal("demacia");
 		adr1.setLigne1("Demacia");
-		adr1.setLigne2("Demacia");
-		adr1.setLigne3("Demacia");
+		
 		adr1.setComplementcedex("demacia");
-		monClient.setAdresse(adr1);
-		monClient.addFacture(f1);
-		
+		Client monClient = new Client("garen",adr1);
+		Facture f1 = new Facture(666.666,monClient);
+		//monClient.addFacture(f1);
+		Vendeur v = new Vendeur("fabrice");
 		Service s = new Service();
-		
+	
 		s.ajouterAdresse(adr1);
 		s.ajouterClient(monClient);
 		s.ajouterFacture(f1);
+		s.ajouterVendeur(v);
 		List<Client> listClient= s.getAllClient();
 		listClient.forEach((cl)->{ System.out.println(cl);});
 		
