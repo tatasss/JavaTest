@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/antlr-2.7.6.jar"/>
+	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/c3p0-0.9.1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/cglib-nodep-2.1_3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/commons-collections-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/commons-logging-1.0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/dom4j-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/ejb3-persistence.jar"/>
+	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/hibernate3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/hibernate-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/hibernate-commons-annotations.jar"/>
+	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/hibernate-entitymanager.jar"/>
+	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/hibernate-validator.jar"/>
+	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/javassist.jar"/>
+	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/jboss-archive-browsing.jar"/>
+	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/jta.jar"/>
+	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/log4j-1.2.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/matthias/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/mysql-connector-java-5.1.15-bin.jar"/>
+	<classpathentry kind="output" path="out/production/objet_les_classe_en_java"/>
+</classpath>

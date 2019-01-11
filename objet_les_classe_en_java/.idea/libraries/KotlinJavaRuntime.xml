@@ -6,6 +6,23 @@
       <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-test.jar!/" />
       <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-jdk7.jar!/" />
       <root url="jar://$KOTLIN_BUNDLED$/lib/kotlin-stdlib-jdk8.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/log4j-1.2.11.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/jta.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/jboss-archive-browsing.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/javassist.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/hibernate3.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/hibernate-validator.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/hibernate-entitymanager.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/hibernate-commons-annotations.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/hibernate-annotations.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/ejb3-persistence.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/dom4j-1.6.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/commons-logging-1.0.4.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/commons-collections-2.1.1.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/cglib-nodep-2.1_3.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/c3p0-0.9.1.2.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/jarannotation/jarannotation/antlr-2.7.6.jar!/" />
+      <root url="jar://$USER_HOME$/Downloads/Microsoft.SkypeApp_kzf8qxf38zg5c!App/All/mysql-connector-java-5.1.15-bin.jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES>

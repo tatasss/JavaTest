@@ -8,12 +8,13 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
+import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 import com.sun.istack.internal.NotNull;
 
 @Entity
-@Table (name="CLIENT")
+@Table (name="Facture")
 public class Facture {
 	@Id
 	@GeneratedValue (strategy=GenerationType.AUTO)
@@ -25,7 +26,9 @@ public class Facture {
 	@JoinColumn (name = "clientID")
 	@NotNull
 	private Client client;
-	
+	public Facture() {
+		
+	}
 
 	public Facture(double totalTTC, Client c) {
 		this.totalTTC= totalTTC;
@@ -44,14 +47,14 @@ public class Facture {
 	public void setTotalTTC(double totalTTC) {
 		this.totalTTC = totalTTC;
 	}
-	/*
+	
 	public Client getClient() {
 		return client;
 	}
 	public void setClient(Client client) {
 		this.client = client;
 	}
-	*/
+	
 	@Override
 	public String toString() {
 		return " id : " + id + "total : " + totalTTC;// + "Client : "+ ((client!=null)? client.getNom() : "");

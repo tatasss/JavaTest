@@ -1,6 +1,4 @@
 bibVide
-0
-TYPE :REVUE : Science et Vie Junior
-TYPE : LIVRRE : Maman est en haut
-TYPE : LIVRRE : Les Gens Change
-TYPE :REVUE : Mooglie et ces amis
+2
+TYPE :REVUE : mom
+TYPE :REVUE : mom

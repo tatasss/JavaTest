@@ -3,22 +3,25 @@ package presentation;
 import InterfaceGraphique.FenetrePrincipale;
 import metier.Auteur;
 import metier.Bibliotheque;
+import metier.Document;
 import Service.Controlleur;
+import Service.HibernateService;
 import metier.Frequence;
 
 import java.io.File;
+import java.util.List;
 import java.util.Scanner;
 
 public class Principale {
     public static void main(String[] args){
-        File monFichier =new File("bib.txt");
-        File fichBin= new File("bib.bin");
+       /* File monFichier =new File("bib.txt");
+        File fichBin= new File("bib.bin");*/
         Bibliotheque bib = null;
-        if (fichBin.exists()){
-            bib=Controlleur.charge(fichBin,bib);
-        }
-        else bib=new Bibliotheque("bibVide");
-
+        bib=new HibernateService().chargerBib();
+        List<Document> mesDoc= new HibernateService().chargerDoc(bib);
+        bib.setMesDocument(mesDoc);
+        new HibernateService().ajouterBibliotheque(bib);
+        new HibernateService().ajouterAuteur(new Auteur("garen"));
         FenetrePrincipale f= new FenetrePrincipale(bib);
         f.setVisible(true);
         /*int menu;
@@ -56,7 +59,7 @@ public class Principale {
             }
         }while (menu>0 &&menu<=3);*/
         //System.out.println(bib.getCompteur());
-        Controlleur.sauve(monFichier,bib);
-        Controlleur.sauveBin(fichBin,bib);
+       /* Controlleur.sauve(monFichier,bib);
+        Controlleur.sauveBin(fichBin,bib);*/
     }
 }

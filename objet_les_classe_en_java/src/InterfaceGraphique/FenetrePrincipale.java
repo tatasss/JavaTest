@@ -1,6 +1,7 @@
 package InterfaceGraphique;
 
 import Service.Controlleur;
+import Service.HibernateService;
 import metier.*;
 
 import javax.swing.*;
@@ -27,19 +28,26 @@ public class FenetrePrincipale extends JFrame { // la JFrame Utilise un layout p
     public static void actualiser(String[] tab) {
         if (tab[3].equals("REVUE")) {
             bib.ajouterUnDocument(tab[0], Integer.parseInt(tab[1]), Frequence.valueOf(tab[2]));
-            model.addElement(new Revue(tab[0], Integer.parseInt(tab[1]), Frequence.valueOf(tab[2])));
+            Revue r =new Revue(tab[0], Integer.parseInt(tab[1]), Frequence.valueOf(tab[2]),bib);
+            new HibernateService().ajouterRevue(r);
+            model.addElement(r);
         } else {
+        	Auteur a = new Auteur(tab[2]);
+        	Livre l = new Livre(tab[0], Integer.parseInt(tab[1]), a,bib);
             bib.ajouterUnDocument(tab[0], Integer.parseInt(tab[1]), new Auteur(tab[2]));
-            model.addElement(new Livre(tab[0], Integer.parseInt(tab[1]), new Auteur(tab[2])));
+            model.addElement(a);
+            new HibernateService().ajouterAuteur(a);
+            new HibernateService().ajouterLivre(l);
         }
-        Controlleur.sauveBin(new File("bib.bin"), bib);
-        Controlleur.sauve(new File("bib.txt"), bib);
+        /*Controlleur.sauveBin(new File("bib.bin"), bib);
+        Controlleur.sauve(new File("bib.txt"), bib);*/
 
     }
 
     public FenetrePrincipale(Bibliotheque bib) {
         //=========================================================================
         FenetrePrincipale.bib = bib;
+        
         //=========================================================================
         //DefaultListModel<Object> model = new DefaultListModel<>();
         for (Object d : FenetrePrincipale.bib.getMesDocument()) {

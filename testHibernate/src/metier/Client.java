@@ -10,6 +10,7 @@ import javax.persistence.Id;
 import javax.persistence.JoinColumn;
 import javax.persistence.ManyToOne;
 import javax.persistence.OneToMany;
+import javax.persistence.SequenceGenerator;
 import javax.persistence.Table;
 
 import com.sun.istack.internal.NotNull;
@@ -19,7 +20,8 @@ import com.sun.istack.internal.NotNull;
 @Table (name="CLIENT")
 public class Client {
 	@Id
-	@GeneratedValue (strategy=GenerationType.AUTO)
+	@GeneratedValue	(strategy=GenerationType.IDENTITY, generator = "book_generator")
+	@SequenceGenerator(name="book_generator", sequenceName = "book_seq")
 	@Column (name="clientId")
 	private int id;
 	@Column (name="nom")
@@ -44,12 +46,12 @@ public class Client {
 		this.id = id;
 	}
 	
-	/*public Set<Facture> getFactures() {
+	public Set<Facture> getFactures() {
 		return factures;
 	}
 	public void setFactures(Set<Facture> factures) {
 		this.factures = factures;
-	}*/
+	}
 	public String getNom() {
 		return nom;
 	}
@@ -60,15 +62,17 @@ public class Client {
 		this.nom = nom;
 		this.adresse = adr;
 	}
+	
+	
 	public Client() {
 		
 	}
 	@Override
 	public String toString() {
 		String n = this.nom + "\n" +this.adresse;
-		/*for (Facture f: this.getFactures()) {
+		for (Facture f: this.getFactures()) {
 			n+= "\n facture : "+f;
-		}*/
+		}
 		return n;
 	}
 	public void addFacture(Facture f) {
