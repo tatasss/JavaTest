@@ -5,7 +5,6 @@ import org.hibernate.cfg.AnnotationConfiguration;
 import org.hibernate.cfg.Configuration;
 
 import HibernateEvent.InterceptuerExemple;
-import HibernateEvent.MonEcouteur;
 
 public class HibernateUtil {
 	 public static final SessionFactory sessionFactory;

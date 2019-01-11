@@ -2,9 +2,6 @@ package main;
 
 import java.util.List;
 
-import org.hibernate.*;
-
-import Service.HibernateUtil;
 import Service.Service;
 import metier.Adresse;
 import metier.Client;
@@ -13,7 +10,6 @@ import metier.Vendeur;
 
 public class Principale {
 
-	@SuppressWarnings("rawtypes")
 	public static void main(String[] args) {
 		
 		
