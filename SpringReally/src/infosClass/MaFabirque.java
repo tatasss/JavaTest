@@ -5,7 +5,7 @@ import org.springframework.context.annotation.ComponentScan;
 import org.springframework.context.annotation.Configuration;
 
 @Configuration
-@ComponentScan(basePackages = {"generateur.GenerateurInfo", "Principale.Main"})
+@ComponentScan(basePackages = {"generateur"})
 public class MaFabirque {
 	// "infos " -> "new projet.infosXML()"
 	@Bean

@@ -4,12 +4,14 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
 
 import infosClass.InfosInterface;
-@Component
+//@Component
 public class GenerateurInfos {
 	private InfosInterface generateur ;
-	@Autowired
-	public void setInfosInterface(InfosInterface generateur) {
+	int param;
+	//@Autowired
+	public void setInfosInterface(InfosInterface generateur,int param) {
 		this.generateur=generateur;
+		this.param=param;
 	}
 	
 	
