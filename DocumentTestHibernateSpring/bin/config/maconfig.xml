@@ -9,7 +9,7 @@
     http://www.springframework.org/schema/tx/spring-tx-4.1.xsd">
     <bean id="dataSource" class = "org.springframework.jdbc.datasource.DriverManagerDataSource" >
     	<property name="driverClassName" value="com.mysql.jdbc.Driver"/>
-        <property name="url" value="jdbc:mysql://localhost:3306/DocSimple"/>
+        <property name="url" value="jdbc:mysql://localhost:3306/Dochard"/>
         <property name="username" value="root" />
         
     </bean>
@@ -17,7 +17,10 @@
     	<property name= "dataSource" ref="dataSource" />
     	<property name="annotatedClasses">
     		<list>
-    			<value>metier.Client</value>
+    			<value>metier.Auteur</value>
+    			<value>metier.Bibliotheque</value>
+    			<value>metier.Livre</value>
+    			<value>metier.Revue</value>
     		</list>
     	</property>
     	<property name="hibernateProperties">
@@ -35,6 +38,27 @@
     
     </bean>
     
-	<bean id="clientDAO" class="DAO.ClientDAOImpl" autowire="byName"/>
-	<bean id="clientService" class="Service.ClientServiceImpl" autowire="byName"/>
+	<bean id="AuteurDAO" class="dao.AuteurDAO" autowire="byName"/>
+	<bean id="AuteurService" class="service.AuteurService" >
+		<property name="AuteurDAO" ref="AuteurDAO"/>
+	</bean>
+	
+	<bean id="BibliothequeDAO" class="dao.BibliothequeDAO" autowire="byName"/>
+	<bean id="BibliothequeService" class="service.BibliothequeService">
+		<property name="BibliothequeDAO" ref= "BibliothequeDAO"></property>
+	</bean>
+	
+	<bean id="LivreDAO" class="dao.LivreDAO" autowire="byName"/>
+	<bean id="LivreService" class="service.LivreService" >
+		<property name="LivreDAO" ref="LivreDAO"/>
+	</bean>
+	
+	<bean id="RevueDAO" class="dao.RevueDAO" autowire="byName"/>
+	<bean id="RevueService" class="service.RevueService">
+		<property name="RevueDAO" ref="RevueDAO"/>
+	</bean>
+	
+	<bean id="bib" class="metier.Bibliotheque">
+		<constructor-arg type="String" value="maBib"/>
+	</bean>
 </beans>

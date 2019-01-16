@@ -23,7 +23,7 @@ public class GenerateurInfos {
 		
 	}
 	
-	public void setGenerateur(InfosInterface generateur) {
+	public void setInfoInterface(InfosInterface generateur) {
 		this.generateur = generateur;
 	}
 	public String fournirLesDonnees() {
